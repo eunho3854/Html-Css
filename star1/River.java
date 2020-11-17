@@ -1,25 +1,43 @@
 package star1;
 
-class River {
-	// 1. 상태
-	// final String name; 메모리 공간을 읽기 전용으로 변경.
-	String name;
-	int hp;
-	int attack;
+class River extends StarUnit{
+	private String name;
+	private int hp;
+	private int attack;
 	
-	// 2. 초기화를 위한 생성자 (마법X)
-	public River(String n, int h, int a) {
-		name = n;
-		hp = h;
-		attack = a;
-	}
-	
-	// 3. 디폴트 생성자를 직접 만들어준다.
-	// 이유 : 컴파일러가 안만들어주니까.
 	public River() {
-		
+		// TODO Auto-generated constructor stub
+	}
+
+	public River(String name, int hp, int attack) {
+		this.name = name;
+		this.hp = hp;
+		this.attack = attack;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getHp() {
+		return hp;
+	}
+
+	public void setHp(int hp) {
+		this.hp = hp;
+	}
+
+	public int getAttack() {
+		return attack;
+	}
+
+	public void setAttack(int attack) {
+		this.attack = attack;
 	}
 	
-	// 4. 변수의 값을 변경하거나 확인하는 행위가 필요!!
 	
 }
