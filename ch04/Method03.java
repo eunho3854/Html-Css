@@ -7,7 +7,7 @@ class Cal {	// °è»ê±â
 		
 	}
 	
-	int minus(int 3,)
+//	int minus(int 3,)
 }
 
 public class Method03 {
