@@ -39,6 +39,6 @@ public class ExampleSend {
 	}
 	
   public static void main(String[] args) {
-    문자전송("01085312625", "꺼져");
+    문자전송("01085312625", "테스트");
   }
 }
